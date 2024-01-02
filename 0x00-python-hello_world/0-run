@@ -1,2 +1,3 @@
 #/bin/bash
+# run ptyhon files
 python3 $PYFILE
