@@ -1,2 +1,8 @@
 #!/bin/bash
-python $PYFILE
+# Check if the environment variable $PYFILE is set
+if [ -z "$PYFILE" ]; then
+echo "Error: The environment variable \$PYFILE is not set."
+exit 1
+fi
+python3 "$PYFILE"
+
