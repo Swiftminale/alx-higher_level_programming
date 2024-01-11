@@ -5,13 +5,12 @@
   * @h: singly linked list to print
   * Return: number of nodes in the list
   */
-size_t print_listint(const listint_t *h)
-{
-size_t i;
-for (i = 0; h; i++)
-{
+size_t print_dlistint(const dlistint_t *h) {
+size_t node_count = 0;
+while (h != NULL) {
 printf("%d\n", h->n);
 h = h->next;
+node_count++;
 }
-return (i);
+return node_count;
 }
