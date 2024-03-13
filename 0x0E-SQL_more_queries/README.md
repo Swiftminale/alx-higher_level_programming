@@ -1,3 +1,7 @@
+# Author
+- Minale Fetene
+- minalefetene@gmail.com
+
 # 0x0E. SQL - More queries
 ## Comments for your SQL file:
 ```
