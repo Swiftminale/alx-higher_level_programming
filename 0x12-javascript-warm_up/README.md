@@ -1,3 +1,3 @@
 # Author
-- Minale Fetene
-- mianlefetene@gmail.com
+- minale fetene
+- minalefetene@gmail.com
